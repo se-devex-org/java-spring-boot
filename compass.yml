@@ -1,0 +1,29 @@
+name: java-spring-boot
+id: ari:cloud:compass:a52dfdae-b7fc-40ec-80f3-9f57c97d76ce:component/5febc276-1c07-482c-8a84-8103641855ae/64c289a1-06fa-4f43-89ad-e97c5b98b950
+description: Standard Java microservice template.
+configVersion: 1
+typeId: CAPABILITY
+ownerId: ari:cloud:identity::team/6a13ca73-0456-405d-97f1-e58573d28e7b
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/se-devex-org/java-spring-boot
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: AWS Region
+    type: multi_select
+    value: null
+  - name: Data encrypted at rest
+    type: text
+    value: null
+  - name: Data encrypted in transit
+    type: text
+    value: null
+  - name: Last security review
+    type: text
+    value: null
